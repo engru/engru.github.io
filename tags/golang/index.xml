@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on 二荆条</title>
+    <link>http://engru.github.io/tags/golang/</link>
+    <description>Recent content in golang on 二荆条</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 22:39:16 +0800</lastBuildDate>
+    
+	<atom:link href="http://engru.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go 语言中的代码生成</title>
+      <link>http://engru.github.io/posts/go/code-generate/</link>
+      <pubDate>Tue, 05 Nov 2019 22:39:16 +0800</pubDate>
+      
+      <guid>http://engru.github.io/posts/go/code-generate/</guid>
+      <description>go 语言中，我们经常会遇到代码生成；比如 gRPC、k8s 中的 code-generation 组件；
+甚至于，k8s 中 operator 开发大部分都是基于 code-generation 的代码生成技术，来生成项目的基础框架。
+下面我们会简单汇总常见的代码生成技术和思路；</description>
+    </item>
+    
+  </channel>
+</rss>

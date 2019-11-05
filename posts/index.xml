@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 二荆条</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2019 22:34:27 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 22:39:16 +0800</lastBuildDate>
     
 	<atom:link href="http://engru.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go 语言中的代码生成</title>
+      <link>http://engru.github.io/posts/go/code-generate/</link>
+      <pubDate>Tue, 05 Nov 2019 22:39:16 +0800</pubDate>
+      
+      <guid>http://engru.github.io/posts/go/code-generate/</guid>
+      <description>go 语言中，我们经常会遇到代码生成；比如 gRPC、k8s 中的 code-generation 组件；
+甚至于，k8s 中 operator 开发大部分都是基于 code-generation 的代码生成技术，来生成项目的基础框架。
+下面我们会简单汇总常见的代码生成技术和思路；</description>
+    </item>
     
     <item>
       <title>kubernetes Operator</title>
@@ -21,6 +32,18 @@
 operator sdk 开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；
 其中代码生成模块都是基于 k8s.io/code-generator ；
 k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；</description>
+    </item>
+    
+    <item>
+      <title>Tidb</title>
+      <link>http://engru.github.io/posts/db/tidb/</link>
+      <pubDate>Tue, 05 Nov 2019 20:36:31 +0800</pubDate>
+      
+      <guid>http://engru.github.io/posts/db/tidb/</guid>
+      <description>TiDB 简介 TiDB 是 PingCAP 公司设计的开源分布式数据库；TiDB 高度兼容 MySQL，支持分布式，不用进行分表分库；是为云原生而设计的数据库，使用维护都非常简单。
+项目源码 TiDB 源码可以从 GitHub 上直接访问：TiDB; 从源码可知 TiDB 是由 go 语言开发实现的。
+TiDB 架构 TiDB 集群主要包括三个核心组件： TiDB Server, PD Server 和 TiKV Server。 此外，还有用于解决用户复杂 OLAP 需求的 TiSpark 组件和简化云上Kubernetes 部署管理的 TiDB Operator 组件。
+TiDB 使用 TiDB 使用兼容 MySQL， 具体配置部署参考官方文档；</description>
     </item>
     
     <item>

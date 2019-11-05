@@ -17,25 +17,25 @@
     
     
 
-<title>kubernetes Operator • 二荆条</title>
+<title>Tidb • 二荆条</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="kubernetes Operator"/>
-<meta name="twitter:description" content="k8s operator 开发通常基于 operator tools 生成 operator 基础框架。
-operator sdk 开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；
-其中代码生成模块都是基于 k8s.io/code-generator ；
-k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；"/>
+<meta name="twitter:title" content="Tidb"/>
+<meta name="twitter:description" content="TiDB 简介 TiDB 是 PingCAP 公司设计的开源分布式数据库；TiDB 高度兼容 MySQL，支持分布式，不用进行分表分库；是为云原生而设计的数据库，使用维护都非常简单。
+项目源码 TiDB 源码可以从 GitHub 上直接访问：TiDB; 从源码可知 TiDB 是由 go 语言开发实现的。
+TiDB 架构 TiDB 集群主要包括三个核心组件： TiDB Server, PD Server 和 TiKV Server。 此外，还有用于解决用户复杂 OLAP 需求的 TiSpark 组件和简化云上Kubernetes 部署管理的 TiDB Operator 组件。
+TiDB 使用 TiDB 使用兼容 MySQL， 具体配置部署参考官方文档；"/>
 
-<meta property="og:title" content="kubernetes Operator" />
-<meta property="og:description" content="k8s operator 开发通常基于 operator tools 生成 operator 基础框架。
-operator sdk 开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；
-其中代码生成模块都是基于 k8s.io/code-generator ；
-k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；" />
+<meta property="og:title" content="Tidb" />
+<meta property="og:description" content="TiDB 简介 TiDB 是 PingCAP 公司设计的开源分布式数据库；TiDB 高度兼容 MySQL，支持分布式，不用进行分表分库；是为云原生而设计的数据库，使用维护都非常简单。
+项目源码 TiDB 源码可以从 GitHub 上直接访问：TiDB; 从源码可知 TiDB 是由 go 语言开发实现的。
+TiDB 架构 TiDB 集群主要包括三个核心组件： TiDB Server, PD Server 和 TiKV Server。 此外，还有用于解决用户复杂 OLAP 需求的 TiSpark 组件和简化云上Kubernetes 部署管理的 TiDB Operator 组件。
+TiDB 使用 TiDB 使用兼容 MySQL， 具体配置部署参考官方文档；" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://engru.github.io/posts/k8s/operator/" />
-<meta property="article:published_time" content="2019-11-05T22:34:27+08:00" />
-<meta property="article:modified_time" content="2019-11-05T22:34:27+08:00" /><meta property="og:site_name" content="Engru Tech" />
+<meta property="og:url" content="http://engru.github.io/posts/db/tidb/" />
+<meta property="article:published_time" content="2019-11-05T20:36:31+08:00" />
+<meta property="article:modified_time" content="2019-11-05T20:36:31+08:00" /><meta property="og:site_name" content="Engru Tech" />
 
 
     
@@ -197,7 +197,7 @@ k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io
     
 <article>
   <header>
-    <h1>kubernetes Operator</h1>
+    <h1>Tidb</h1>
     
     
 <div class="post__meta">
@@ -212,7 +212,7 @@ k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io
           in
           
           
-              <a class="badge badge-category" href="/categories/k8s">K8S</a>
+              <a class="badge badge-category" href="/categories/%E6%95%B0%E6%8D%AE%E5%BA%93">数据库</a>
               
           
       
@@ -224,10 +224,7 @@ k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/k8s">k8s</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/operator">operator</a>
+          <a class="badge badge-tag" href="/tags/db">db</a>
           
       
     
@@ -243,29 +240,35 @@ k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io
   <div class="post">
     
 
-<p>k8s operator 开发通常基于 operator tools 生成 operator 基础框架。</p>
+<h2 id="tidb-简介">TiDB 简介</h2>
 
-<h2 id="operator-sdk">operator sdk</h2>
+<p>TiDB 是 PingCAP 公司设计的开源分布式数据库；TiDB 高度兼容 MySQL，支持分布式，不用进行分表分库；是为云原生而设计的数据库，使用维护都非常简单。</p>
 
-<p>开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；</p>
+<h3 id="项目源码">项目源码</h3>
 
-<p>其中代码生成模块都是基于 k8s.io/code-generator ；</p>
+<p>TiDB 源码可以从 GitHub 上直接访问：<a href="https://github.com/pingcap/tidb">TiDB</a>; 从源码可知 TiDB 是由 go 语言开发实现的。</p>
 
-<p>k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；</p>
+<h2 id="tidb-架构">TiDB 架构</h2>
+
+<p>TiDB 集群主要包括三个核心组件： TiDB Server, PD Server 和 TiKV Server。 此外，还有用于解决用户复杂 OLAP 需求的 TiSpark 组件和简化云上Kubernetes 部署管理的 TiDB Operator 组件。</p>
+
+<h2 id="tidb-使用">TiDB 使用</h2>
+
+<p>TiDB 使用兼容 MySQL， 具体配置部署参考官方文档；</p>
 
   </div>
   
 
 <div class="navigation navigation-single">
     
-    <a href="/posts/db/tidb/" class="navigation-prev">
+    <a href="/posts/markdown-syntax-guide/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Tidb</span>
+      <span class="navigation-tittle">Markdown Syntax Guide</span>
     </a>
     
     
-    <a href="/posts/go/code-generate/" class="navigation-next">
-      <span class="navigation-tittle">Go 语言中的代码生成</span>
+    <a href="/posts/k8s/operator/" class="navigation-next">
+      <span class="navigation-tittle">kubernetes Operator</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

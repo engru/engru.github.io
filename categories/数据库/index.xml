@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据库 on 二荆条</title>
+    <link>http://engru.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+    <description>Recent content in 数据库 on 二荆条</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 20:36:31 +0800</lastBuildDate>
+    
+	<atom:link href="http://engru.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tidb</title>
+      <link>http://engru.github.io/posts/db/tidb/</link>
+      <pubDate>Tue, 05 Nov 2019 20:36:31 +0800</pubDate>
+      
+      <guid>http://engru.github.io/posts/db/tidb/</guid>
+      <description>TiDB 简介 TiDB 是 PingCAP 公司设计的开源分布式数据库；TiDB 高度兼容 MySQL，支持分布式，不用进行分表分库；是为云原生而设计的数据库，使用维护都非常简单。
+项目源码 TiDB 源码可以从 GitHub 上直接访问：TiDB; 从源码可知 TiDB 是由 go 语言开发实现的。
+TiDB 架构 TiDB 集群主要包括三个核心组件： TiDB Server, PD Server 和 TiKV Server。 此外，还有用于解决用户复杂 OLAP 需求的 TiSpark 组件和简化云上Kubernetes 部署管理的 TiDB Operator 组件。
+TiDB 使用 TiDB 使用兼容 MySQL， 具体配置部署参考官方文档；</description>
+    </item>
+    
+  </channel>
+</rss>
