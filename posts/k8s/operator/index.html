@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
     
+    
+
+
     <head>
     <link href="https://gmpg.org/xfn/11" rel="profile">
     <meta charset="utf-8">
@@ -14,19 +17,25 @@
     
     
 
-<title>syntax • 二荆条</title>
+<title>kubernetes Operator • 二荆条</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="syntax"/>
-<meta name="twitter:description" content="人生的大起大落来得太突然，搞得我直想尿尿..."/>
+<meta name="twitter:title" content="kubernetes Operator"/>
+<meta name="twitter:description" content="k8s operator 开发通常基于 operator tools 生成 operator 基础框架。
+operator sdk 开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；
+其中代码生成模块都是基于 k8s.io/code-generator ；
+k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；"/>
 
-<meta property="og:title" content="syntax" />
-<meta property="og:description" content="人生的大起大落来得太突然，搞得我直想尿尿..." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://engru.github.io/categories/syntax/" />
-
-<meta property="og:updated_time" content="2019-03-11T00:00:00+00:00" /><meta property="og:site_name" content="Engru Tech" />
+<meta property="og:title" content="kubernetes Operator" />
+<meta property="og:description" content="k8s operator 开发通常基于 operator tools 生成 operator 基础框架。
+operator sdk 开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；
+其中代码生成模块都是基于 k8s.io/code-generator ；
+k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://engru.github.io/posts/k8s/operator/" />
+<meta property="article:published_time" content="2019-11-05T22:34:27+08:00" />
+<meta property="article:modified_time" content="2019-11-05T22:34:27+08:00" /><meta property="og:site_name" content="Engru Tech" />
 
 
     
@@ -56,8 +65,7 @@
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
-    <link rel="alternate" type="application/rss+xml" href="http://engru.github.io/categories/syntax/index.xml" title="二荆条" />
-
+    
 </head>
 
 
@@ -186,28 +194,110 @@
 
         <div class="content container">
             
-    <span class="section__title">syntax</span>
-<ul class="posts">
     
-        
-<li>
-  <span class="list__title--small">
-    <a href="/posts/markdown-syntax-guide/" >Markdown Syntax Guide</a>
+<article>
+  <header>
+    <h1>kubernetes Operator</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Nov 5, 2019
+    
+    
+    
       
-      <time class="pull-right hidden-tablet">Mar 11, 2019</time>
       
-  </span>
-</li>
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/k8s">K8S</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/k8s">k8s</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/operator">operator</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
 
 
+  </header>
+  
+  
+  <div class="post">
     
-</ul>
+
+<p>k8s operator 开发通常基于 operator tools 生成 operator 基础框架。</p>
+
+<h2 id="operator-sdk">operator sdk</h2>
+
+<p>开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；</p>
+
+<p>其中代码生成模块都是基于 k8s.io/code-generator ；</p>
+
+<p>k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/markdown-syntax-guide/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Markdown Syntax Guide</span>
+    </a>
+    
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
 
 
         </div>
         
     
+
 <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+        
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
 
 
 

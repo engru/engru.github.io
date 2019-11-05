@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 二荆条</title>
-    <link>http://engru.github.io/posts/</link>
-    <description>Recent content in Posts on 二荆条</description>
+    <title>k8s on 二荆条</title>
+    <link>http://engru.github.io/tags/k8s/</link>
+    <description>Recent content in k8s on 二荆条</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2019 22:34:27 +0800</lastBuildDate>
     
-	<atom:link href="http://engru.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://engru.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,15 +21,6 @@
 operator sdk 开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；
 其中代码生成模块都是基于 k8s.io/code-generator ；
 k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://engru.github.io/posts/markdown-syntax-guide/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://engru.github.io/posts/markdown-syntax-guide/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
   </channel>

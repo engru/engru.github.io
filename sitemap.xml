@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://engru.github.io/categories/</loc>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://engru.github.io/categories/k8s/</loc>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://engru.github.io/tags/k8s/</loc>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://engru.github.io/posts/k8s/operator/</loc>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://engru.github.io/tags/operator/</loc>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://engru.github.io/posts/</loc>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://engru.github.io/tags/</loc>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://engru.github.io/</loc>
-    <lastmod>2019-11-01T14:20:32+08:00</lastmod>
+    <lastmod>2019-11-05T22:34:27+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://engru.github.io/about/</loc>
     <lastmod>2019-11-01T14:20:32+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://engru.github.io/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,22 +68,12 @@
   </url>
   
   <url>
-    <loc>http://engru.github.io/posts/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://engru.github.io/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://engru.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://engru.github.io/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   

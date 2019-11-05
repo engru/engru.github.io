@@ -6,10 +6,22 @@
     <description>Recent content on 二荆条</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 14:20:32 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 22:34:27 +0800</lastBuildDate>
     
 	<atom:link href="http://engru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kubernetes Operator</title>
+      <link>http://engru.github.io/posts/k8s/operator/</link>
+      <pubDate>Tue, 05 Nov 2019 22:34:27 +0800</pubDate>
+      
+      <guid>http://engru.github.io/posts/k8s/operator/</guid>
+      <description>k8s operator 开发通常基于 operator tools 生成 operator 基础框架。
+operator sdk 开发 k8s operator 目前主要有两种方法，一种是 k8s 官方出的 kubebuilder 以及 coreos 开发的 operator-sdk；
+其中代码生成模块都是基于 k8s.io/code-generator ；
+k8s operator 接口基础组件主要依赖于： k8s.io/client-go 以及 k8s.io/apimachinery 模块；</description>
+    </item>
     
     <item>
       <title>关于</title>
